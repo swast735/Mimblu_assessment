@@ -6,17 +6,15 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import android.widget.CheckBox
 import androidx.recyclerview.widget.RecyclerView
-import com.example.mimblu_assessment.databinding.ActivityMainBinding
 
 
 class SympAdapter(private val sympList:ArrayList<DataModel>, context: Context) :RecyclerView.Adapter<SympAdapter.ViewHolder>(){
     private val i=context.getSharedPreferences("SharedPref",MODE_PRIVATE )
     private lateinit var sn:String
     lateinit var id: String
-    var c:Int=0
+    private var c:Int=0
      private var setString=ArrayList<String>()
     class ViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
         val  symname: CheckBox =itemView.findViewById(R.id.cb)
