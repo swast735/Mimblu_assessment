@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Mimblu_assessment</string>
+    <string name="mimblu">mimblu</string>
+    <string name="logout">Logout</string>
+    <string name="what_led_you_to_mimblu_today">What led you to Mimblu today?</string>
+    <string name="help_us_find_you_the_best_selection_of_counsellors_to_choose_from">Help us find you the best selection of counsellors to choose from</string>
+    <string name="show_me_my_matches">Show Me My Matches</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pick_your_plan_to_continue">Pick Your plan to continue</string>
+    <string name="mimblu_is_up_to_5x_cheaper_than_in_person_therapy">Mimblu is up to 5x cheaper than in-person therapy</string>
+    <string name="plus">plus</string>
+    <string name="live">LIVE</string>
+    <string name="_30_days">30 Days</string>
+</resources>
